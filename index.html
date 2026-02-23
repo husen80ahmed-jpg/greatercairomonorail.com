@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>GreaterCairoMonorail.com — نطاق للبيع | بوابة رقمية لمشروع المونوريل</title>
+  <meta name="description" content="GreaterCairoMonorail.com — أصل رقمي (Exact-Match) متاح للاستحواذ. مناسب لبوابة معلومات/خدمات، صفحة مشروع، مركز إعلامي، أو توليد عملاء للمطورين على مسارات المونوريل. غير تابع لأي جهة حكومية." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://greatercairomonorail.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="GreaterCairoMonorail.com — Domain For Acquisition" />
+  <meta property="og:description" content="Exact-Match digital asset for Monorail search intent & project utility. Independent portfolio. Not affiliated with NAT or any authority." />
+  <meta property="og:url" content="https://greatercairomonorail.com/" />
+  <meta property="og:image" content="https://i.ibb.co/kgCYSPwP/egyptmonorail-com.jpg" />
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    :root {
+      --primary-dark: #0f172a;
+      --secondary-dark: #1e293b;
+      --accent-gold: #f59e0b;
+      --text-light: #f8fafc;
+      --text-gray: #94a3b8;
+      --btn-blue: #3b82f6;
+      --border: rgba(255,255,255,0.08);
+      --panel: rgba(15, 23, 42, 0.55);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: var(--primary-dark);
+      color: var(--text-light);
+      line-height: 1.6;
+      padding-top: 74px; /* space for fixed header */
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 5%;
+      background: rgba(15, 23, 42, 0.98);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      backdrop-filter: blur(10px);
+    }
+
+    .brand-container { display: flex; align-items: center; gap: 12px; }
+
+    .brand-container img {
+      height: 40px;
+      width: auto;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .brand-name {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-light);
+      letter-spacing: 0.5px;
+    }
+
+    .domain-title-nav {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--accent-gold);
+      font-size: 1.25rem;
+      font-weight: 800;
+      direction: ltr;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.4px;
+      border: 1px solid rgba(255,255,255,0.10);
+      background: rgba(245, 158, 11, 0.10);
+      color: var(--accent-gold);
+      direction: ltr;
+      white-space: nowrap;
+    }
+
+    /* Hero */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: calc(100vh - 74px);
+      padding: 70px 5% 50px;
+      gap: 40px;
+      background: radial-gradient(circle at top right, #1e293b, #0f172a);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .hero-content { flex: 1; max-width: 640px; }
+
+    .hero-subtitle {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(59, 130, 246, 0.10);
+      color: var(--btn-blue);
+      padding: 7px 16px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 800;
+      margin-bottom: 16px;
+      letter-spacing: 0.6px;
+      direction: ltr;
+    }
+
+    .hero-note {
+      margin: 10px 0 18px;
+      font-size: 0.95rem;
+      color: rgba(248, 250, 252, 0.85);
+      background: rgba(148, 163, 184, 0.10);
+      border: 1px solid rgba(255,255,255,0.08);
+      padding: 10px 14px;
+      border-radius: 12px;
+    }
+
+    .hero h1 {
+      font-size: 3.0rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      color: var(--text-light);
+    }
+
+    .hero h1 span { color: var(--accent-gold); }
+
+    .hero p {
+      font-size: 1.15rem;
+      color: var(--text-gray);
+      margin-bottom: 22px;
+      line-height: 1.9;
+    }
+
+    .usecases {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px 16px;
+      margin-top: 18px;
+    }
+
+    .usecase {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 12px 12px;
+      border-radius: 12px;
+      background: rgba(30, 41, 59, 0.55);
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .usecase i { margin-top: 2px; color: var(--accent-gold); font-size: 1.05rem; }
+
+    .usecase div {
+      color: rgba(248,250,252,0.92);
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+
+    .hero-image { flex: 1; text-align: center; }
+
+    .hero-image img {
+      max-width: 100%;
+      border-radius: 14px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.42);
+      border: 1px solid rgba(255,255,255,0.10);
+      transition: transform 0.3s ease;
+    }
+
+    .hero-image img:hover { transform: translateY(-8px); }
+
+    /* Stats */
+    .stats-section {
+      background-color: var(--secondary-dark);
+      padding: 60px 5%;
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .stats-title {
+      margin-bottom: 30px;
+      color: var(--text-gray);
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 26px;
+      max-width: 1020px;
+      margin: 0 auto 26px;
+    }
+
+    .stat-card { padding: 20px; }
+
+    .stat-number {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3rem;
+      font-weight: 800;
+      color: var(--text-light);
+      margin-bottom: 6px;
+      direction: ltr;
+    }
+
+    .stat-label {
+      color: var(--accent-gold);
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+
+    .stat-sub {
+      margin-top: 6px;
+      font-size: 0.85rem;
+      color: rgba(148,163,184,0.95);
+    }
+
+    .source-link {
+      font-size: 0.92rem;
+      color: var(--text-gray);
+      text-decoration: none;
+      transition: color 0.3s;
+      display: inline-flex;
+      gap: 10px;
+      align-items: center;
+      border: 1px solid rgba(255,255,255,0.08);
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.55);
+    }
+
+    .source-link:hover { color: var(--btn-blue); border-color: rgba(59,130,246,0.35); }
+
+    /* Bundle */
+    .bundle-section { padding: 80px 5%; text-align: center; }
+
+    .section-header { max-width: 880px; margin: 0 auto 50px; }
+
+    .section-header h2 {
+      font-size: 2.4rem;
+      margin-bottom: 18px;
+      line-height: 1.25;
+    }
+
+    .section-header p {
+      font-size: 1.08rem;
+      color: var(--text-gray);
+      line-height: 1.95;
+    }
+
+    .highlight-red { color: #ef4444; font-weight: 800; }
+
+    .domains-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      max-width: 1050px;
+      margin: 0 auto;
+      direction: ltr;
+    }
+
+    .domain-card {
+      background: var(--secondary-dark);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 30px 20px;
+      border-radius: 14px;
+      transition: all 0.3s;
+      text-align: left;
+    }
+
+    .domain-card:hover {
+      border-color: rgba(245, 158, 11, 0.55);
+      transform: translateY(-5px);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.25);
+    }
+
+    .domain-card h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1rem;
+      color: var(--text-light);
+      margin: 14px 0 10px;
+      direction: ltr;
+    }
+
+    .domain-card p {
+      font-size: 0.93rem;
+      color: var(--text-gray);
+      font-family: 'Cairo', sans-serif;
+      direction: rtl;
+      line-height: 1.85;
+      text-align: right;
+    }
+
+    /* PDF Form Section */
+    .pdf-section {
+      padding: 70px 5%;
+      background: linear-gradient(to left, rgba(30,41,59,0.9), rgba(15,23,42,0.9));
+      border-top: 1px solid rgba(255,255,255,0.05);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .pdf-wrap {
+      max-width: 1050px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .pdf-card {
+      background: rgba(15,23,42,0.55);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 22px;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+    }
+
+    .pdf-card h3 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+
+    .pdf-card p {
+      color: var(--text-gray);
+      line-height: 1.9;
+      font-size: 1.02rem;
+    }
+
+    .pdf-bullets {
+      margin-top: 16px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .pdf-bullet {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 12px 12px;
+      border-radius: 12px;
+      background: rgba(30,41,59,0.45);
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .pdf-bullet i { color: var(--accent-gold); margin-top: 2px; }
+    .pdf-bullet div { color: rgba(248,250,252,0.92); font-size: 0.95rem; line-height: 1.7; }
+
+    form.lead-form { display: grid; gap: 12px; }
+
+    .field-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    label {
+      font-size: 0.92rem;
+      color: rgba(148,163,184,0.95);
+      margin-bottom: 6px;
+      display: inline-block;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 12px 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.10);
+      background: rgba(15,23,42,0.7);
+      color: var(--text-light);
+      outline: none;
+      font-family: 'Cairo', sans-serif;
+    }
+
+    input::placeholder, textarea::placeholder { color: rgba(148,163,184,0.75); }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: rgba(245,158,11,0.55);
+      box-shadow: 0 0 0 4px rgba(245,158,11,0.12);
+    }
+
+    textarea { min-height: 92px; resize: vertical; }
+
+    .consent {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 12px 12px;
+      border-radius: 12px;
+      background: rgba(30,41,59,0.45);
+      border: 1px solid rgba(255,255,255,0.06);
+      color: rgba(248,250,252,0.9);
+      font-size: 0.92rem;
+      line-height: 1.7;
+    }
+
+    .consent input { width: 18px; height: 18px; margin-top: 2px; }
+
+    .form-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 6px;
+    }
+
+    .btn {
+      padding: 14px 30px;
+      border-radius: 999px;
+      font-size: 1.02rem;
+      font-weight: 800;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s ease;
+      direction: ltr;
+      border: 1px solid rgba(255,255,255,0.10);
+      cursor: pointer;
+    }
+
+    .btn-download {
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--accent-gold);
+      border-color: rgba(245,158,11,0.45);
+    }
+    .btn-download:hover { transform: translateY(-2px); background: rgba(245,158,11,0.22); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text-light);
+      border: 1px solid rgba(148,163,184,0.65);
+    }
+    .btn-outline:hover { transform: translateY(-2px); border-color: rgba(245,158,11,0.6); color: var(--accent-gold); }
+
+    .form-status {
+      margin-top: 10px;
+      font-size: 0.92rem;
+      color: rgba(148,163,184,0.95);
+      text-align: center;
+      min-height: 20px;
+    }
+
+    /* Contact */
+    .contact-section {
+      background: linear-gradient(to right, var(--secondary-dark), var(--primary-dark));
+      padding: 80px 5%;
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .contact-section h2 { font-size: 2.1rem; }
+
+    .contact-section p {
+      color: var(--text-gray);
+      margin-top: 14px;
+      font-size: 1.08rem;
+      line-height: 1.9;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .contact-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 36px;
+    }
+
+    .btn-whatsapp { background-color: #25D366; color: white; border-color: rgba(255,255,255,0.10); }
+    .btn-whatsapp:hover { background-color: #128C7E; transform: translateY(-2px); }
+
+    .btn-phone { background-color: var(--btn-blue); color: white; border-color: rgba(255,255,255,0.10); }
+    .btn-phone:hover { background-color: #2563eb; transform: translateY(-2px); }
+
+    .btn-email { background-color: transparent; border: 2px solid rgba(148,163,184,0.7); color: var(--text-light); }
+    .btn-email:hover { border-color: rgba(245,158,11,0.8); color: var(--accent-gold); transform: translateY(-2px); }
+
+    /* Footer */
+    footer {
+      background-color: #0b1120;
+      padding: 42px 20px;
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .disclaimer-wrap { max-width: 980px; margin: 0 auto; }
+
+    .disclaimer-ar {
+      font-size: 0.92rem;
+      color: rgba(148,163,184,0.95);
+      line-height: 1.9;
+      margin-bottom: 14px;
+      padding: 14px 16px;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 14px;
+      background: rgba(15, 23, 42, 0.55);
+    }
+
+    .disclaimer {
+      font-size: 0.86rem;
+      color: #64748b;
+      line-height: 1.9;
+      direction: ltr;
+    }
+
+    /* Honeypot hidden */
+    .hp-field { position: absolute; left: -9999px; top: -9999px; opacity: 0; }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+      .hero { flex-direction: column; text-align: center; padding-top: 60px; }
+      .hero-content { max-width: 100%; }
+      .usecases { grid-template-columns: 1fr; }
+      .domain-card { text-align: center; }
+      .domain-card p { text-align: center; direction: rtl; }
+      .pdf-wrap { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      body { padding-top: 118px; }
+      header { flex-direction: column; gap: 10px; padding: 14px 5%; }
+      .domain-title-nav { font-size: 1.05rem; flex-wrap: wrap; justify-content: center; }
+      .hero h1 { font-size: 2.15rem; }
+      .section-header h2 { font-size: 1.95rem; }
+      .stat-number { font-size: 2.25rem; }
+      .field-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="brand-container">
+      <img src="https://i.ibb.co/BHhQ5LHz/SNAP-THE-NAME.png" alt="Snap The Name Logo" />
+      <div class="brand-name">Snap the Name</div>
+    </div>
+
+    <div class="domain-title-nav">
+      GreaterCairoMonorail.com
+      <span class="pill"><i class="fa-solid fa-tag"></i> For Acquisition</span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-subtitle">
+        <i class="fa-solid fa-shield-halved"></i>
+        Exact-Match Digital Asset (B2B)
+      </div>
+
+      <div class="hero-note">
+        <strong>ملاحظة مهمة:</strong> هذا الموقع يعرض نطاقًا/محفظة نطاقات للبيع كأصل رقمي مستقل — وليس بوابة رسمية للمشروع.
+      </div>
+
+      <h1>واجهة رقمية ذكية لمشروع <span>المونوريل</span></h1>
+      <p>
+        GreaterCairoMonorail.com أصل رقمي (Exact-Match) مناسب لبوابة معلومات وخدمات، صفحة مشروع (Microsite)، مركز إعلامي،
+        أو منصة توليد عملاء للمطورين على مسارات المونوريل — مع تقليل التشتت في البحث ورفع الوضوح الرقمي للعلامة.
+      </p>
+
+      <div class="usecases">
+        <div class="usecase">
+          <i class="fa-solid fa-circle-info"></i>
+          <div><strong>بوابة معلومات</strong> (محطات/تكامل/أسئلة شائعة) للركاب والإعلام.</div>
+        </div>
+        <div class="usecase">
+          <i class="fa-solid fa-briefcase"></i>
+          <div><strong>Project Microsite</strong> للمشروع/التحالف (Updates, Media Kit, Safety).</div>
+        </div>
+        <div class="usecase">
+          <i class="fa-solid fa-handshake"></i>
+          <div><strong>Vendor Portal</strong> للموردين والتأهيل (Onboarding / RFIs).</div>
+        </div>
+        <div class="usecase">
+          <i class="fa-solid fa-chart-line"></i>
+          <div><strong>Lead-Gen</strong> للمطورين (سكن/تجاري “قرب المونوريل”).</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="https://i.ibb.co/kgCYSPwP/egyptmonorail-com.jpg" alt="Egypt Monorail Digital Concept" />
+    </div>
+  </section>
+
+  <section class="stats-section">
+    <div class="stats-title">أرقام مُعلنة رسميًا عن مشروعي مونوريل (شرق/غرب النيل)</div>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">100 KM</div>
+        <div class="stat-label">إجمالي طول الشبكة</div>
+        <div class="stat-sub">وفق بيان الهيئة القومية للأنفاق</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-number">35</div>
+        <div class="stat-label">عدد المحطات</div>
+        <div class="stat-sub">شرق/غرب النيل</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-number">600K</div>
+        <div class="stat-label">راكب/يوم لكل خط</div>
+        <div class="stat-sub">طاقة استيعابية (Design Capacity)</div>
+      </div>
+    </div>
+
+    <a
+      href="https://www.nat.gov.eg/NewsDetailsAr.aspx?id=1237"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="source-link"
+      aria-label="المصدر الرسمي للهيئة القومية للأنفاق NAT"
+    >
+      <i class="fa-solid fa-link"></i>
+      المصدر: الهيئة القومية للأنفاق (NAT) — خبر رسمي
+    </a>
+  </section>
+
+  <section class="bundle-section">
+    <div class="section-header">
+      <h2>Defensive Coverage Bundle<br>(حزمة حماية العلامة الرقمية)</h2>
+      <p>
+        العرض لا يعتمد على نطاق واحد فقط — بل يشمل <strong>حزمة نطاقات مترابطة</strong> لتغطية نوايا البحث الجغرافية،
+        وتقليل الالتباس في الكتابة والبحث، و<span class="highlight-red">منع تشتت الزيارات</span> بين صيغ متعددة أثناء توسع الاستخدام.
+      </p>
+    </div>
+
+    <div class="domains-grid">
+      <div class="domain-card">
+        <i class="fa-solid fa-globe" style="color: var(--accent-gold); font-size: 2rem;"></i>
+        <h3>EgyptMonorail.com</h3>
+        <p>النطاق الرئيسي (Master Hub) لتجميع نوايا البحث على مستوى مصر وخارجها.</p>
+      </div>
+
+      <div class="domain-card">
+        <i class="fa-solid fa-map-location-dot" style="color: var(--btn-blue); font-size: 2rem;"></i>
+        <h3>GreaterCairoMonorail.com</h3>
+        <p>تغطية نطاق القاهرة الكبرى كواجهة موحدة للمحتوى والخدمات والتكامل.</p>
+      </div>
+
+      <div class="domain-card">
+        <i class="fa-solid fa-train-subway" style="color: var(--btn-blue); font-size: 2rem;"></i>
+        <h3>EastCairoMonorail.com</h3>
+        <p>توجيه نوايا البحث المرتبطة بالقاهرة الجديدة والتجمع والاتصال بالعاصمة الإدارية.</p>
+      </div>
+
+      <div class="domain-card">
+        <i class="fa-solid fa-city" style="color: var(--btn-blue); font-size: 2rem;"></i>
+        <h3>WestCairoMonorail.com</h3>
+        <p>توجيه نوايا البحث المرتبطة بـ 6 أكتوبر/زايد ومحاور غرب القاهرة.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PDF DOWNLOAD FORM (Lead Capture) -->
+  <section class="pdf-section" id="download">
+    <div class="pdf-wrap">
+
+      <div class="pdf-card">
+        <h3>تحميل الملف التعريفي (PDF)</h3>
+        <p>
+          احصل على <strong>Executive One-Pager</strong> يوضح: حالات الاستخدام، من يجب أن يمتلك النطاق، وكيف يخدم (Brand/Digital/Comms/Vendors/Developers).
+          <br><br>
+          <span style="color: rgba(248,250,252,0.9); font-weight: 700;">
+            ملاحظة: الملف يُفتح فور الإرسال، وسيتم إرسال بياناتك لإدارة الأصول للتواصل.
+          </span>
+        </p>
+
+        <div class="pdf-bullets">
+          <div class="pdf-bullet">
+            <i class="fa-solid fa-file-pdf"></i>
+            <div><strong>One-Pager</strong> مختصر وسريع للمشاركة داخل الشركة.</div>
+          </div>
+          <div class="pdf-bullet">
+            <i class="fa-solid fa-diagram-project"></i>
+            <div>Use-cases واضحة: بوابة معلومات / Microsite / Vendor Portal / Lead-Gen.</div>
+          </div>
+          <div class="pdf-bullet">
+            <i class="fa-solid fa-shield"></i>
+            <div>منطق “Defensive Coverage” لتقليل الالتباس وتشتت الزيارات.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pdf-card">
+        <form class="lead-form" id="leadForm" novalidate>
+          <!-- Honeypot -->
+          <div class="hp-field">
+            <label>Leave this field empty</label>
+            <input type="text" name="company_website" autocomplete="off" />
+          </div>
+
+          <div class="field-row">
+            <div>
+              <label for="fullName">الاسم</label>
+              <input id="fullName" name="fullName" type="text" placeholder="مثال: Ahmed Hassan" required />
+            </div>
+            <div>
+              <label for="email">البريد الإلكتروني</label>
+              <input id="email" name="email" type="email" placeholder="name@company.com" required />
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div>
+              <label for="company">الشركة</label>
+              <input id="company" name="company" type="text" placeholder="مثال: XYZ Group" required />
+            </div>
+            <div>
+              <label for="role">الدور الوظيفي</label>
+              <select id="role" name="role" required>
+                <option value="">اختر…</option>
+                <option>Marketing / Comms</option>
+                <option>Digital / WebOps</option>
+                <option>IT / Security</option>
+                <option>Legal / Brand</option>
+                <option>Business Development</option>
+                <option>Real Estate Developer</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="note">ملاحظة (اختياري)</label>
+            <textarea id="note" name="note" placeholder="هل تبحث عن النطاق الرئيسي فقط أم الحزمة؟ من هو صاحب القرار داخل الشركة؟"></textarea>
+          </div>
+
+          <div class="consent">
+            <input id="consent" type="checkbox" required />
+            <div>
+              أوافق على مشاركة بياناتي للتواصل بخصوص النطاق/الحزمة فقط. (لن تُستخدم لأغراض أخرى)
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button class="btn btn-download" type="submit">
+              <i class="fa-solid fa-download"></i> Download PDF
+            </button>
+
+            <a class="btn btn-outline" href="#contact">
+              <i class="fa-solid fa-headset"></i> تحدث مباشرة
+            </a>
+          </div>
+
+          <div class="form-status" id="formStatus"></div>
+
+          <div style="text-align:center; margin-top:8px;">
+            <a href="#" id="directPdfLink" style="color: rgba(148,163,184,0.95); font-size:0.9rem; text-decoration:none;">
+              إذا تعذر النموذج، اضغط هنا لفتح الملف
+            </a>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <h2>هل هذه الأصول الرقمية مناسبة لشركتك؟</h2>
+    <p>
+      إذا كنت مسؤولًا عن Web/DNS أو Brand/Digital أو Comms — تواصل مباشرة لطلب تفاصيل العرض ومناقشة نطاق واحد أو الحزمة.
+    </p>
+
+    <div class="contact-buttons">
+      <a
+        href="https://wa.me/201000001802?text=أهلاً، أنا مهتم بمناقشة الاستحواذ على GreaterCairoMonorail.com وحزمة النطاقات المرتبطة."
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-whatsapp"
+      >
+        <i class="fa-brands fa-whatsapp"></i> +20 100 000 1802
+      </a>
+
+      <a href="tel:+201000001802" class="btn btn-phone">
+        <i class="fa-solid fa-phone"></i> Call Now
+      </a>
+
+      <a
+        href="mailto:hussein.lashin@snapthename.com?subject=Domain Acquisition: GreaterCairoMonorail.com (Bundle)"
+        class="btn btn-email"
+      >
+        <i class="fa-solid fa-envelope"></i> hussein.lashin@snapthename.com
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="disclaimer-wrap">
+      <div class="disclaimer-ar">
+        <strong>تنبيه قانوني:</strong> هذه الصفحة تعرض محفظة نطاقات للبيع كأصل تجاري مستقل. لا توجد أي تبعية أو اعتماد أو صلة
+        بالهيئة القومية للأنفاق (NAT) أو الحكومة المصرية أو أي جهة نقل عام رسمية.
+      </div>
+
+      <div class="disclaimer">
+        <strong>Legal Disclaimer:</strong> This domain bundle and website are an independent commercial portfolio managed by Snap the Name,
+        intended for private acquisition and utility use-cases (information hub, project microsite, vendor portal, or lead generation).
+        It is <strong>NOT</strong> affiliated with, endorsed by, or connected to the National Authority for Tunnels (NAT), the Egyptian Government,
+        or any official public transit authorities.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /**
+     * ✅ ارفع ملف الـ PDF داخل الريبو:
+     * /assets/EgyptMonorail-OnePager.pdf
+     * (أو غيّر الرابط هنا)
+     */
+    const PDF_URL = "/assets/EgyptMonorail-OnePager.pdf";
+
+    const leadForm = document.getElementById("leadForm");
+    const formStatus = document.getElementById("formStatus");
+    const directPdfLink = document.getElementById("directPdfLink");
+
+    directPdfLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      window.open(PDF_URL, "_blank", "noopener,noreferrer");
+    });
+
+    function isValidEmail(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email).toLowerCase());
+    }
+
+    leadForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      formStatus.textContent = "";
+
+      // Honeypot spam check
+      const hp = leadForm.querySelector('input[name="company_website"]');
+      if (hp && hp.value.trim() !== "") {
+        formStatus.textContent = "تم.";
+        return;
+      }
+
+      const fullName = document.getElementById("fullName").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const company = document.getElementById("company").value.trim();
+      const role = document.getElementById("role").value.trim();
+      const note = document.getElementById("note").value.trim();
+      const consent = document.getElementById("consent").checked;
+
+      if (!fullName || !email || !company || !role) {
+        formStatus.textContent = "من فضلك املأ الحقول المطلوبة.";
+        return;
+      }
+      if (!isValidEmail(email)) {
+        formStatus.textContent = "البريد الإلكتروني غير صحيح.";
+        return;
+      }
+      if (!consent) {
+        formStatus.textContent = "من فضلك وافق على مشاركة البيانات للتواصل.";
+        return;
+      }
+
+      // 1) Open PDF immediately
+      window.open(PDF_URL, "_blank", "noopener,noreferrer");
+
+      // 2) Prepare an email to capture lead (works on static hosting)
+      const subject = encodeURIComponent("PDF Request — GreaterCairoMonorail.com (One-Pager)");
+      const body = encodeURIComponent(
+        `New PDF request:\n\n` +
+        `Name: ${fullName}\n` +
+        `Email: ${email}\n` +
+        `Company: ${company}\n` +
+        `Role: ${role}\n` +
+        `Note: ${note || "-"}\n\n` +
+        `Requested file: ${location.origin}${PDF_URL}\n` +
+        `Page: ${location.href}\n`
+      );
+
+      setTimeout(() => {
+        window.location.href = `mailto:hussein.lashin@snapthename.com?subject=${subject}&body=${body}`;
+      }, 250);
+
+      formStatus.textContent = "تم فتح الملف. إذا لم يُفتح، استخدم رابط التحميل أسفل الزر.";
+      leadForm.reset();
+    });
+  </script>
+
+</body>
+</html>
